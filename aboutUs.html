@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LansDelivery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid container">
+            <a class="navbar-brand active" aria-current="page" href="index.html">
+                <img src="logo.png" alt="Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="proposition.html">Proposition</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="aboutUs.html">About us</a>
+                    </li>
+               
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 d-block d-xl-none" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Admin panel</a>
+                    </li>
+                </ul>
+                <img src="admin.svg" alt="logo" class="logo d-none d-xl-block" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+            </div>
+        </div>
+    </nav>
+    <header class="headerAboutUS ">
+        <div class="typettype pt-5 pb-5">
+
+
+            <div class="container pt-5 pb-5 text-light text-start">
+                <h3 class="pt-5 ">About us</h3>
+                <h1 class=" pb-5 ">Lans Delivery Company</h1>
+
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="row justify-content-around">
+            <div class="col-xl-3 card">
+                <h3 class="cardMainTeg border-bottom border-danger pt-3 pb-2">01. GLOBAL</h3>
+                <h4 class="pt-2 pb-2">We are distributing our services</h4>
+                <p>We span major hubs on all continents providing a seamless supply chain solution focused on quality
+                    systems throughout. We operate strategically located transportation, distribution and value-added
+                    service centers throughout North America, Europe and Asia.</p>
+            </div>
+            <div class="col-xl-3 card">
+                <h3 class="cardMainTeg border-bottom border-danger pt-3 pb-2">02. VISION</h3>
+                <h4 class="pt-2 pb-2">We have a unique philosophy</h4>
+                <p>Our culture is tuned to exceeding every customer’s expectations while providing a place for employees
+                    to build their careers and prosper. Our environment breeds success, and you’ll notice our people
+                    move faster, work harder and are better rewarded than the competition.</p>
+            </div>
+            <div class="col-xl-3 card">
+                <h3 class="cardMainTeg border-bottom border-danger pt-3 pb-2">03. MISSION</h3>
+                <h4 class="pt-2 pb-2">We are adding value to each step of your chain</h4>
+                <p>Our job is to make sure that from raw material to finished goods, to returns management, we provide
+                    the critical services and information necessary to We then build a solution customized to your cost
+                    and service requirements using all possible information and our proven.</p>
+            </div>
+        </section>
+
+        <section class="row pt-xl-5 mt-2">
+            <div class="col-xl-6">
+                <h1 class=" pt-5 cardMainTeg border-bottom border-danger">Who we are</h1>
+                <div class="d-flex pt-3 justify-content-around pb-4 pt-2 cursor-pointer">
+                    <h2 onclick="globalBtn()" id="globalBtn" class="cardDopColor pointor">Global</h2>
+                    <h2 onclick="visionBtn()" id="visionBtn" class="pointor">Vision</h2>
+                    <h2 onclick="missionBtn()" id="missionBtn" class="pointor">Mission</h2>
+                </div>
+                <div class="card">
+                    <div id="globalText">
+                        <h4>We are distributing our services across the globe</h4>
+                        <p>
+                            We span major hubs on all continents providing a seamless supply chain solution focused
+                            on
+                            quality systems throughout. We operate strategically located transportation,
+                            distribution
+                            and value-added service centers throughout North America, Europe and Asia.</p>
+                    </div>
+                    <div id="visionText" class="d-none">
+                        <h4>We have a unique philosophy and protect it</h4>
+                        <p>Our culture is tuned to exceeding every customer’s expectations while providing a place
+                            for employees to build their careers and prosper. Our environment breeds success, and
+                            you’ll notice our people move faster, work harder and are better rewarded than the
+                            competition.</p>
+                    </div>
+                    <div id="missionText" class="d-none">
+                        <h4 id="">We are adding value to each step of your supply chain</h4>
+                        <p>Our job is to make sure that from raw material to finished goods, to returns management,
+                            we provide the critical services and information necessary to We then build a solution
+                            customized to your cost and service requirements using all possible information and our
+                            proven experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6">
+              <img src="aboutUsImg.jpg" alt="image" class="rounded img-fluid">
+            </div>
+
+        </section>
+
+    </main>
+    <section class="dopSectionAbout mt-xl-5">
+        <div class="typettype pt-5 pb-5 ">
+            <section class=" row p-3 container justify-content-center  m-auto">
+
+
+                <div class="d-none" id="confirmed">
+                    <div class="d-flex">
+    
+    
+                        <img src="confirm.svg" alt="confirmed" class="logo">
+                        <h1>Confirmed</h1>
+                    </div>
+                </div>
+    
+    
+                <div class="col-12 col-xl-4 unConfirmed" id="unConfirmed">
+                    <h1 class="text-light">
+                        <article id="part1"> Оставить заявку</article>
+                    </h1>
+                    <button class="custom-btn btn-3 d-none d-xl-block" onclick="useInfo()"><span>Отправить</span></button>
+                </div>
+                <div class="col-12 col-xl-5 inputElement mt-2  vacantia pt-2 pb-4 unConfirmed" id="unConfirmedInput">
+                    <input type="text" placeholder="Ваше имя" class=" me-xl-3 rounded " id="userFullName">
+                    <input type="text" placeholder="Телефон" class=" mt-4  rounded" id="userPhoneNumber">
+                    <input type="text" placeholder="Е-mail" class="me-xl-3  rounded mt-4" id="userEmail">
+                    <input type="text" placeholder="Сообщение" class="rounded mt-4 " id="userMessage">
+                </div>
+                <button class="custom-btn btn-3 d-block d-xl-none unConfirmed" onclick="useInfo()"
+                    id="unConfirmedBtn"><span>Отправить</span></button>
+    
+            </section>
+        </div>
+    </section>
+    <footer class="pt-2 pb-1 mt-3 ">
+        <section class="container">
+            <div class="row">
+
+
+                <div class="col-xl-2">
+
+                    <img src="logo.png" alt="logo" class="logo">
+
+                </div>
+                <div class="col-xl-10">
+                    <div class="d-xl-flex justify-content-around">
+                        <div>
+                            <a href="tel:+74950000000">+7 (495) 000-00-00</a>
+
+                        </div>
+                        <div>
+                            <a href="tel:+88000000000">+8 (800) 000-00-00</a>
+
+                        </div>
+                        <div>
+                            <a href="tel:+74950003000">+7 (495) 000-30-00</a>
+
+                        </div>
+                        <div>
+                            <a href="mailto:manager@kuryeryrulyat.ru">manager@kuryeryrulyat.ru </a>
+                        </div>
+                    </div>
+                    <div class="d-xl-flex justify-content-around">
+                        <p>© 2010-2022 ООО «LansDelivery»</p>
+                        <p>г.Warsaw, ул. Академика Королева, д. 12</p>
+                        <p>Политика конфиденциальности</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
